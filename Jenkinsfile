@@ -31,5 +31,10 @@ pipeline {
                 echo 'Save the assemblies generated from the compilation' 
             }
         }
+        stage('E2E Tests') {
+            steps {
+                echo 'Run E2E Tests' 
+            }
+        }
     }
 }
