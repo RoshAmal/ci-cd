@@ -1,8 +1,5 @@
 pipeline {
     agent any
-    tools {
-        git 'Default'
-    }
     stages {
         stage('Static Analysis') {
             steps {
