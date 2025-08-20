@@ -1,0 +1,7 @@
+node ('agent1'){
+  stage('Static Analysis') {
+    steps {
+        echo 'Run the static analysis to the code' 
+    }
+  }
+}
